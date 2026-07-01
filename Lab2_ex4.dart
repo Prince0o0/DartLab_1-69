@@ -7,7 +7,7 @@ void main(){
   
   print('City: ${city.length}');
 
-  print('MiddleName befor assignment: $middleName');
+  print('MiddleName before assignment: $middleName');
 
 
   int cityLength = city.length;
