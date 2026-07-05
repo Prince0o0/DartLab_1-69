@@ -28,7 +28,6 @@ void main() {
   executeArea('Rectangle ', 5, 10, rectangleArea);
   executeVolume('Rectangular Prism ', 5, 10, 3, rectangularPrismVolume);
 
-  // สามเหลี่ยม / ปริซึมสามเหลี่ยม
   executeArea('Triangle ', 6, 4, triangleArea);
   executeVolume('Triangular Prism ', 6, 4, 8, triangularPrismVolume); 
 
