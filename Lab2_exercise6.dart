@@ -32,5 +32,5 @@ void main() {
   executeVolume('Triangular Prism ', 6, 4, 8, triangularPrismVolume); 
 
   executeArea('Side Surface of Cylinder ', 7, 10, (r, h) => 2 * 3.14 * r * h);
-  executeVolume('Cylinder ', 7, 10, 0, (r, h, _) => 3.14 * r * r * h);
+  executeVolume('Cylinder ', 7, 10, 0, (r, h, _) => 3.14 * r * r * h); 
 }
