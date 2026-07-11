@@ -19,7 +19,7 @@ class Stack<T> with Loggable {
       return null;
     }
     T item = _items.removeLast();
-    log('Pop: Pop $item from stack (Size: ${_items.length})');
+    log('Pop: Popped $item from stack (Size: ${_items.length})');
     return item;
   }
 
@@ -44,5 +44,6 @@ void main() {
   nameStack.push('Hermione');
   nameStack.pop();
   nameStack.pop();
-  nameStack.pop(); 
+  nameStack.pop();
+  
 }
