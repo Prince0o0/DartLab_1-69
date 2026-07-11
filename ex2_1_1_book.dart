@@ -14,7 +14,7 @@ class Book {
 }
 
 void main() {
-  Book book1 = Book('บ้านวิกลคนประหลาด', 'Uketsu (อุเก็ตสึ)', 265.0);
+  Book book1 = Book('บ้านวิกลคนประหลาด', 'Uketsu (อุเก็ตสึ)', 275.0);
 
   Book book2 = Book('แฮรี่ พ็อตเตอร์ กับศิลาอาถรรพ์', 'J.K. Rowling (เจ.เค. โรว์ลิ่ง)', 595.0);
 

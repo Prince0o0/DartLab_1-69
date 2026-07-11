@@ -7,7 +7,7 @@ class Temperature {
 
   set celsius(double value) {
     if (value < -273.15) {
-      print('ค่าที่ป้อนต่ำกว่าศูนย์สัมบูรณ์ (-273.15) ไม่สามารถตั้งค่าได้');
+      print('Value below absolute zero (-273.15) is not allowed');
     } else {
       _celsius = value;
     }
@@ -19,14 +19,14 @@ class Temperature {
 void main() {
   Temperature temp = Temperature(25);
 
-  print('อุณหภูมิเริ่มต้น: ${temp.celsius} °C');
-  print('แปลงเป็นฟาเรนไฮต์: ${temp.fahrenheit} °F');
+  print('StartTemp: ${temp.celsius} °C');
+  print('To Fahrenheit: ${temp.fahrenheit} °F');
 
   temp.celsius = 30;
-  print('\nตั้งค่าใหม่เป็น: ${temp.celsius} °C');
-  print('แปลงเป็นฟาเรนไฮต์: ${temp.fahrenheit} °F');
+  print('\nSet new: ${temp.celsius} °C');
+  print('To Fahrenheit: ${temp.fahrenheit} °F');
 
-  print('\nลองตั้งค่าต่ำกว่าศูนย์สัมบูรณ์:');
+  print('\nTrying to set a value below absolute zero:');
   temp.celsius = -300;
-  print('ค่ายังคงเป็น: ${temp.celsius} °C (ไม่เปลี่ยนแปลง)');
+  print('The value remains: ${temp.celsius} °C (unchanged)');
 }
