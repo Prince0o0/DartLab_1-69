@@ -43,4 +43,5 @@ void calcTotal(int price, int qty, double discount) {
 
 }
 calcTotal(55, 2,0.0);
+
 }
